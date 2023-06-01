@@ -13,5 +13,90 @@ html{
 body{
     margin: 0;
     padding: 0;
+    min-height: 100vh;
     font-family: NotoSans;
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    font-size: 1.6rem;
+}
+
+nav li:first-child{
+    padding-top: 2rem;
+    margin: 0 auto;
+}
+
+
+#logo-custom-color {
+    color: #DB005B;
+    font-size: 2.5rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+#hero-txt{
+    /* border: 2px solid red; */
+    color: #DB005B;
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+#our-msg{
+    text-align: center;
+}
+
+section{
+    padding: 0 1.5rem 0 1.5rem;
+}
+
+#submit-button{
+    text-decoration: none;
+    border: 2px solid #DB005B;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    background: #DB005B;
+    padding: 0.6rem 5rem 0.6rem 5rem;
+    border-radius: 5px;
+}
+
+#enter-email{
+    /* border: 2px solid blue; */
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+/* #submit-email{
+    text-align: center;
+} */
+
+#email-field{
+    border: 2px solid #DB005B;
+    padding: 1rem 2.8rem 1rem 2.8rem;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 5px;
+    margin-bottom: 0.6rem;
+}
+
+#recipes{
+    text-decoration: none;
+    color: #DB005B;
+}
+
+footer{
+    margin-top: auto;
+    text-align: center;
+    color: #e4a6c0;
+    border-top: 2px solid black;
 }

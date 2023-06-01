@@ -94,9 +94,33 @@ section{
     color: #DB005B;
 }
 
+.our-msg-container{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+}
+
 footer{
     margin-top: auto;
     text-align: center;
     color: #e4a6c0;
     border-top: 2px solid black;
 }
+
+@media (min-width: 850px) {
+   #our-msg{
+    /* border: 2px solid blue; */
+    width: 80%;
+   } 
+}
+
+@media (min-width: 1200px) {
+
+    nav li:first-child{
+        padding-top: 8rem;
+    }
+    #our-msg{
+     /* border: 2px solid blue; */
+     width: 70%;
+    } 
+ }

@@ -1,0 +1,79 @@
+section ul{
+    list-style:georgian;
+}
+
+.pastries-menu-info{
+    border: 1px solid #DB005B;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    padding: 0.5rem 0 0.5rem  2.3rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+section ul input{
+    border: 2px solid #DB005B;
+    padding: 0.3rem 0 0.3rem 0;
+    border-radius: 2.5px;
+    max-width: 40%;
+}
+
+section ul input[placeholder]{
+    font-size: 0.7rem;
+    color: rgb(97, 97, 97);
+}
+
+section ul input[type]{
+    font-size: 0.8rem;
+    color: black;
+    font-weight: 600;
+}
+
+/* .quantity-input{
+    border: 2px solid green;
+} */
+
+/* .price{
+    border: 2px solid red;
+} */
+
+section h3{
+    text-align: left;
+}
+
+#custom-name{
+    /* border: 2px solid #ff0000; */
+    text-align: left;
+    padding: 1.5rem 0 0 1.5rem;
+}
+
+#custom-name input{
+    border: 3px solid #DB005B;
+    padding: 0.5rem 0.2rem 0.5rem 0.5rem;
+    border-radius: 5px;
+}
+
+#custom-name label{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.food-info{
+    font-weight: 500;
+}
+
+#order-button{
+    text-decoration: none;
+    border: 2px solid #DB005B;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    background: #DB005B;
+    padding: 0.6rem 5rem 0.6rem 5rem;
+    border-radius: 5px;
+}
+
+#order-section{
+    /* border: 2px solid red; */
+    padding-top: 0.5rem;
+}

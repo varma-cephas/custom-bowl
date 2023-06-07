@@ -1,9 +1,11 @@
+<!DOCTYPE html>
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale-1">
         <title>Custom-Bowl | Order Now</title>
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/order.css">
+        <script src="js/app.js"></script>
     </head>
     <body>
         <header>
@@ -17,56 +19,14 @@
         </header>
    
         <form  action="https://formsubmit.co/varmac231@gmail.com" method="POST" id="enter-email">
+            <!-- honeypot -->
+        <input type="text" name="_honey" style="display: none;">
+            <!-- remove captcha -->
+        <input type="hidden" name="_captcha" value="false">
         <section id="custom-name">
             <label>Full Name:</label>
             <input type="text" name="full-name" placeholder="Please enter your full name" required>
         </section>
-        <section>
-            <h3>Pastries</h3>
-            <div class="pastries-menu-info">
-                <div class="food-info">Name</div>
-                <div class="food-info">Price</div>
-                <div class="food-info">Quantity</div>
-            </div>
-            <ul class="pastries-menu-info">
-                <li>Meat Pie</li>
-                <div>$130</div>
-                <div class="quantity-input">
-                <input type="text" name="meat-pie-quantity" placeholder="Enter Quantity">
-                </div>
-            </ul>
-            <ul class="pastries-menu-info">
-                <li>Short Bread</li>
-                <div>$100</div>
-                <div class="quantity-input">
-                <input type="text" name="short-bread-quantity" placeholder="Enter Quantity">
-                </div>
-            </ul>
-            <ul class="pastries-menu-info">
-                <li>Dough-nut</li>
-                <div>$70</div>
-                <div class="quantity-input">
-                <input type="text" name="dough-nut-quantity" placeholder="Enter Quantity">
-                </div>
-            </ul>
-            <ul class="pastries-menu-info">
-                <li>Egg-roll</li>
-                <div>$70</div>
-                <div class="quantity-input">
-                <input type="text" name="egg-roll-quantity" placeholder="Enter Quantity">
-                </div>
-            </ul>
-            <ul class="pastries-menu-info">
-                <li>Corn Bread</li>
-                <div class="price">$130</div>
-                <div class="quantity-input">
-                <input type="text" name="corn-bread-quantity" placeholder="Enter Quantity">
-                </div>
-            </ul>
-        </section>
-
-
-
 
 
         <section>
@@ -80,35 +40,80 @@
                 <li>Super Cassava Bowl</li>
                 <div>$300</div>
                 <div class="quantity-input">
-                <input type="text" name="super-cassava-bowl-quantity" placeholder="Enter Quantity">
+                <input value="1" type="text" name="super-cassava-bowl-quantity" placeholder="Enter Quantity">
                 </div>
             </ul>
             <ul class="pastries-menu-info">
                 <li>Medium Cassava Bowl</li>
                 <div>$250</div>
                 <div class="quantity-input">
-                <input type="text" name="medium-cassava-quantity" placeholder="Enter Quantity">
+                <input value="1" type="text" name="medium-cassava-quantity" placeholder="Enter Quantity">
                 </div>
             </ul>
             <ul class="pastries-menu-info">
                 <li>Super Spaghetti Bowl</li>
                 <div>$350</div>
                 <div class="quantity-input">
-                <input type="text" name="super-spaghetti-quantity" placeholder="Enter Quantity">
+                <input value="1" type="text" name="super-spaghetti-quantity" placeholder="Enter Quantity">
                 </div>                
             </ul>
             <ul class="pastries-menu-info">
                 <li>Medium Spaghetti Bowl</li>
                 <div>$220</div>
                 <div class="quantity-input">
-                <input type="text" name="medium-spaghetti-quantity" placeholder="Enter Quantity">
+                <input value="1" type="text" name="medium-spaghetti-quantity" placeholder="Enter Quantity">
                 </div>
             </ul>
             <ul class="pastries-menu-info">
                 <li>Rice and Soup</li>
                 <div>$450</div>
                 <div class="quantity-input">
-                <input type="text" name="rice-soup-quantity" placeholder="Enter Quantity">
+                <input value="1" type="text" name="rice-soup-quantity" placeholder="Enter Quantity">
+                </div>
+            </ul>
+        </section>
+
+
+        <section>
+            <h3>Pastries</h3>
+            <div class="pastries-menu-info">
+                <div class="food-info">Name</div>
+                <div class="food-info">Price</div>
+                <div class="food-info">Quantity</div>
+            </div>
+            <ul class="pastries-menu-info">
+                <li>Meat Pie</li>
+                <div>$130</div>
+                <div class="quantity-input">
+                <input value="1" type="text" name="meat-pie-quantity" placeholder="Enter Quantity">
+                </div>
+            </ul>
+            <ul class="pastries-menu-info">
+                <li>Short Bread</li>
+                <div>$100</div>
+                <div class="quantity-input">
+                <input value="1" type="text" name="short-bread-quantity" placeholder="Enter Quantity">
+                </div>
+            </ul>
+            <ul class="pastries-menu-info">
+                <li>Dough-nut</li>
+                <div>$70</div>
+                <div class="quantity-input">
+                <input value="1" type="text" name="dough-nut-quantity" placeholder="Enter Quantity">
+                </div>
+            </ul>
+            <ul class="pastries-menu-info">
+                <li>Egg-roll</li>
+                <div>$70</div>
+                <div class="quantity-input">
+                <input value="1" type="text" name="egg-roll-quantity" placeholder="Enter Quantity">
+                </div>
+            </ul>
+            <ul class="pastries-menu-info">
+                <li>Corn Bread</li>
+                <div class="price">$130</div>
+                <div class="quantity-input">
+                <input value="1" type="text" name="corn-bread-quantity" placeholder="Enter Quantity">
                 </div>
             </ul>
         </section>

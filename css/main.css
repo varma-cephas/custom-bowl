@@ -42,12 +42,14 @@ nav ul{
     display: flex;
     /* border: 2px solid red; */
     padding: 0.5rem 0 0.5rem 0;
+    /* border: 2px solid red; */
 }
 
 nav li:first-child{
     padding-top: 2rem;
     margin: 0 auto;
     font-size: 1.6rem;
+    /* border: 2px solid red; */
 }
 
 
@@ -136,6 +138,7 @@ footer{
 
     nav li:first-child{
         padding-top: 8rem;
+        padding-left: 12rem;
     }
     #our-msg{
      /* border: 2px solid blue; */

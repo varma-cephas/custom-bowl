@@ -86,8 +86,8 @@ section{
     font-weight: 600;
     font-size: 1rem;
     background: #DB005B;
-    padding: 0.6rem 5rem 0.6rem 5rem;
-    border-radius: 5px;
+    padding: 0.6rem 2.5rem 0.6rem 2.5rem;
+    border-radius: 9px;
 }
 
 #enter-email{
